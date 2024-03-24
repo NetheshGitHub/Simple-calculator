@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 20px; /* Changed to fixed value for better responsiveness */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover; /* Changed to cover for better background image scaling */
+    background-image: url('https://img.freepik.com/premium-photo/fountain-pen-ink-pen-with-calculator-wood_26018-1305.jpg?w=900');
+}
+
+input, select, button, p {
+    display: block;
+    margin: 20px auto;
+}
+
+input, select, button {
+    width: 100%; /* Changed width to 100% for better responsiveness */
+    max-width: 200px; /* Added max-width to limit width on larger screens */
+    padding: 10px;
+    border: 1px solid #2f2e2e;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:rgb(123, 70, 0);
+    color: black;
+    border: none;
+    padding: 10px 20px; /* Adjusted padding for better appearance */
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+button:hover {
+    background-color: #ecba62;
+}
+
+.tittle {
+    text-align: center;
+    font-size: 2rem; /* Changed to relative font size for better responsiveness */
+    font-style: italic;
+
+}
